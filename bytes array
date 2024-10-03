@@ -1,0 +1,7 @@
+# bytes array example
+# represens a group of byte numbers an array
+x = [10,20,30,40]
+b = bytes(x)
+type(b)
+for i in b:
+  print(i)
