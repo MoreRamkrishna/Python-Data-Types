@@ -1,0 +1,17 @@
+# range example
+# range represent a sequence of numbers
+print('0 to 8 print element')
+r = range(8)
+for i in r:
+  print(i)
+# and
+print()
+print('print in after 10 to 21 print element')
+r1 = range(10,21)
+for i in r1:
+  print(i)
+print()
+print('print next opration step by 2 print the element')
+r2 = range(1,15,2)  #(satrt,stop,step) operation 
+for i in r2:
+  print(i)
