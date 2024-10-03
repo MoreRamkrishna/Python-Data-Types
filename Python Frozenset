@@ -1,0 +1,9 @@
+# frozenset example
+# It is exactly same as set except that it is immutable.
+# Hence we cannot use add or remove functions.
+# frozenset is not support duplicate values
+s = {30,20,10,40,50,40,10,10}
+fs = frozenset(s)
+print(type(fs))
+for i in fs:
+  print(i)
