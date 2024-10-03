@@ -1,0 +1,23 @@
+# List Example
+# it can be add and reomve in nature in multipal times and it be duplicates ar allowed
+list = [10,20,30,'java','python','java']
+print(type(list))
+print(list)
+list.append('python')  #append operation
+print(list)
+list.append('java')
+print(list)
+list.remove(20)   #remove operation
+print(list)
+list1 = list*2    #multipale add element operation
+print(list1)
+list1.append('c#')
+list1.reverse    #reverse operation
+print(list1)
+print(list1.count('java'))  #count operation
+list1.pop()   #pop operation
+print(list1)
+# list1.sort()  #sort operation but we supprot in only string or integer or float or etc.operation
+# print(list1)
+for i in list1:  #for loop print one by one element operation
+  print(i)
