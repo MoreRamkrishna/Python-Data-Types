@@ -1,0 +1,10 @@
+# set example
+# if we want to represent a group of value the we canuse of set
+# we can used in add remove etc. operation
+# set is not support duplicate values
+s = {10,20,30,40,50,10,20,30}
+print(type(s))
+s.add(60)   # add operation
+print(s)
+s.remove(10)    #remove operation
+print(s)
