@@ -1,0 +1,8 @@
+# Tuple Example
+# tuple is exactly same operation as list
+# tuple is not work in append, remove, pop etc. operation this read only version operation
+t = (10,10,30,20,40,10,20,10)
+print(t)
+print(type(t))  #type operation
+print(t.count(10))     #count operation
+t.index(20)     # we can show only  first number of index 
