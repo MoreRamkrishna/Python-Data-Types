@@ -1,0 +1,54 @@
+Summary of Datatypes in Python3 
+Datatype       Description                    Is Immutable           Example
+Int          We can use to represent the      Immutable             >>> a=10
+             whole/integral numbers                                 >>> type(a)
+                                                                    <class 'int'>
+Float        We can use to represent the      Immutable             >>> b=10.5
+             decimal/floating point                                 >>> type(b)
+             numbers                                                <class 'float'>
+Complex      We can use to represent the      Immutable             >>> c=10+5j
+             complex numbers                                        >>> type(c)
+                                                                    <class 'complex'>
+                                                                    >>> c.real
+                                                                    10.0
+                                                                    >>> c.imag
+                                                                    5.0
+Bool         We can use to represent the      Immutable             >>> flag=True
+             logical values(Only allowed                            >>> flag=False
+             values are True and False)                             >>> type(flag)
+                                                                    <class 'bool'>
+Str          To represent sequence of         Immutable             >>> s='durga'
+             Characters                                             >>> type(s)
+                                                                    <class 'str'>
+                                                                    >>> s=" durga"
+                                                                    >>> s='''Durga Software Solutions
+                                                                    ... Ameerpet'''
+                                                                    >>> type(s)
+                                                                    <class 'str'>
+bytes        To represent a sequence of       Immutable             >>> list=[1,2,3,4]
+             byte values from 0-255                                 >>> b=bytes(list)
+                                                                    >>> type(b)
+                                                                    <class 'bytes'>
+range        To represent a range of          Immutable             >>> r=range(10)
+             values                                                 >>> r1=range(0,10)
+                                                                    >>> r2=range(0,10,2)
+list         To represent an ordered           Mutable              >>> l=[10,11,12,13,14,15]
+             collection of objects                                  >>> type(l)
+                                                                    <class 'list'>
+tuple        To represent an ordered           Immutable            >>> t=(1,2,3,4,5)
+             collections of objects                                 >>> type(t)
+                                                                    <class 'tuple'>
+set          To represent an unordered         Mutable              >>> s={1,2,3,4,5,6}
+             collection of unique objects                           >>> type(s)
+                                                                    30 DURGASOFT, # 202, 2
+                                                                    nd Floor, HUDA Maitrivanam, Ameerpet, Hyderabad - 500038, 
+                                                                     040 – 64 51 27 86, 80 96 96 96 96, 92 46 21 21 43 | www.durgasoft.com
+                                                                    <class 'set'>
+frozenset     To represent an unordered        Immutable            >>> s={11,2,3,'Durga',100,'Ramu'}
+              collection of unique objects                          >>> fs=frozenset(s)
+                                                                    >>> type(fs)
+                                                                    <class 'frozenset'>
+dict         To represent a group of key        Mutable             >>> 
+             value pairs                                            d={101:'durga',102:'ramu',103:'hari'}
+                                                                    >>> type(d)
+                                                                    <class 'dict'>
