@@ -1,0 +1,15 @@
+# dict example
+# if we want to represent a group of values as key - values as key-value pairs then we should go for dict data type.
+# duplicate keys are not allowed but values can be duplicate
+# if you insert duplicate keys then old value will be replace new value.
+d = {101:'apple',102:'banana',103:'cherry'}
+print(type(d))
+print(d)
+d[104] = 'orange'  #add operation
+print(d)
+d[101] = 'grapes'  #replace duplicate value
+print(d)
+d.pop(102)  #remove operation
+print(d)
+for i in d:
+  print(i,d[i])
