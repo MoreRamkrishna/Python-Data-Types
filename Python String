@@ -1,0 +1,11 @@
+# String examlpe
+# We can use this method to convert other type values to str type.
+s = str(12345)  #convert int to str
+print(type(s))
+print(s)
+s = str(22.3)  #convert float to str
+print(s)
+s = str(True)  #convert boolean to str
+print(s)
+s = str(10+5j)  #convert complex to str
+print(s)
